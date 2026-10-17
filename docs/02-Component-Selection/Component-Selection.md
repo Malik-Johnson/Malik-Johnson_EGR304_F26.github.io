@@ -1,16 +1,9 @@
 ---
-title: Component Selection Example
+title: Component Selection 
 ---
 
-## Examples
 
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
+**Temperature Display**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -18,42 +11,6 @@ title: Component Selection Example
 | ![](https://github.com/Malik-Johnson/Malik-Johnson_EGR304_F26.github.io/blob/4f361ddb375bfe533aa342fa749cd71daeca9f48/docs/02-Component-Selection/Screenshot%202026-10-16%20201219.png)<br>\* Option 2. <br>\* NHD-C160100DIZ-FSW-FBW Newhaven LCD Screen <br>\* $23.53/each <br>\* [link to product](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C160100DIZ-FSW-FBW/1885694) | \* Color Display <br>  | * More expensive <br>\* Complex Interface <br>  \* Low Contrast <br>                                                       |
 | ![](https://github.com/Malik-Johnson/Malik-Johnson_EGR304_F26.github.io/blob/9669d95a7cbe4a25266fef32f7eef1af62ab8985/docs/02-Component-Selection/Screenshot%202026-10-16%20201146.png)<br>\* Option 3. <br>\* AES152296A00-2.66ENRS Orient E-Paper Screen <br>\* $10.22/each <br>\* [link to product](https://www.digikey.com/en/products/detail/orient-display/AES152296A00-2-66ENRS/15198689) | \* Low Power <br> \* Perfect Size <br>  | * Complex Interface <br>                                                       |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 1: MDOB064048AV-WI Midas OLED Screen
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** The choice is really between the first and last options; the LCD screen is simply overkill for the project's needs. And between those two options, while the E-paper display has its appeal especially with its on-component ram, perfect size for the envisioned project, and low power consumption, the OLED screen's simpler control setup and high-contrast screen make for a better tradeoff, especially as its max power draw is lower than the E-paper's (though the E-paper's power draw is intermittent, hence the lower overall consumption). 
