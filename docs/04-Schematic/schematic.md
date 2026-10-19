@@ -4,13 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+The schematic shown below (and available as a pdf [*here*](docs/04-Schematic/HS-Subsystem-MJ-Schematic.pdf) and archived [*here*](docs/04-Schematic/HS-Subsystem-MJ.zip)) is designed to support the user-interaction features of the HeatSmith device, featuring the digital user interface and the heat alarm speaker.
 
-
-![schematic](Screenshot.png){style width:"350" height:"300;"}
+<img src="docs/04-Schematic/schematic.png"></img>
 **Figure ##:** Showing a example schematic.
-
-
-## Resouces
-
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
