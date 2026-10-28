@@ -24,6 +24,6 @@ title: Component Selection
 | ![](https://github.com/Malik-Johnson/Malik-Johnson_EGR304_F26.github.io/blob/068ad33b2fadea41c83c6d2015ecc3be340b076b/docs/02-Component-Selection/497~TO220-3TO220AB~~3_sml.webp)<br>\* Option 2. <br>\* L7812CV SMTMicroelectronics <br>\* $1.21/each <br>\* [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/L7812CV/585973) | \* High Current Capabilities <br>  | \* More expensive <br> \* High Quiescent Current                                                       |
 
 
-**Choice:** Option 2: LM78L12ACZ/NOPB Texas Instruments
+**Choice:** Option 1: L7812CV SMTMicroelectronics
 
-**Rationale:** The advantages provided by the first and last options simply do not make up for the over-doubling in price, especially considering the minute-to-nonexistent differences in key characteristics such as Temperature Coefficient. While option 3 may remain on the table in case of any major shifts in display choices, option 2 is the clear leader.
+**Rationale:** The second option is out of the running since it lacks the output current to support the screen, leaving it between the first and last options. However, since the first option is slightly more expensive than the third and the difference in performance between the two is pretty negligible (Quiescent current is essentially a non-factor for our purposes), the third is the best choice.
