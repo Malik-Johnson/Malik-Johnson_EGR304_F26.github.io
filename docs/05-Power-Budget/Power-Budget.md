@@ -8,7 +8,7 @@ The power budget pictured below is a document describing the power limitations a
 <img src="/docs/05-Power-Budget/HS-PowerBudget-MJ.webp"></img>
 
 ## Conclusions
-Given the relatively small consumption of both the microcontroller and the OLED screen, the consumption of my portion of the HeatSmith device should fit comfortably within our overall power budget.
+Given the relatively small consumption of both the microcontroller and the OLED screen (0.52 A in total), the consumption of my portion of the HeatSmith device should fit comfortably within our overall power budget.
 
 ## Resouces
 
