@@ -3,20 +3,13 @@ title: Power Budget
 ---
 
 ## Overview
-Write a overview of what you did and why you did a Power Budget.
+The power budget pictured below is a document describing the power limitations and contributions of my portion of the HeatSmith device.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
-
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
-
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
-
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+<img src="/docs/05-Power-Budget/HS-PowerBudget-MJ.webp"></img>
 
 ## Conclusions
-
-From the prepare Power Budget, .....
+Given the relatively small consumption of both the microcontroller and the OLED screen, the consumption of my portion of the HeatSmith device should fit comfortably within our overall power budget.
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
+The power budget as a PDF download is available [*here*](/docs/05-Power-Budget/HS-PowerBudget-MJ.pdf), and a Microsoft Excel Sheet [*here*](/docs/05-Power-Budget/HS-PowerBudget-MJ.xml).
