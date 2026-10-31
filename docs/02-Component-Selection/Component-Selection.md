@@ -27,3 +27,7 @@ title: Component Selection
 **Choice:** Option 1: L7812CV SMTMicroelectronics
 
 **Rationale:** The second option is out of the running since it lacks the output current to support the screen, leaving it between the first and last options. However, since the first option is slightly more expensive than the third and the difference in performance between the two is pretty negligible (Quiescent current is essentially a non-factor for our purposes), the third is the best choice.
+
+**Microcontroller MCC Configuration**
+
+The microcontroller will interface with my system through the use of the GPIO (general-purpose-input/output, used to control the debug LED), ADC (analog-to-digital conversion, used to read from the humidity and temperature sensors), and the I2C system (used to interface with the OLED screen).
