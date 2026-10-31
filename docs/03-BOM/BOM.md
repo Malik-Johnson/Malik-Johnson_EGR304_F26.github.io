@@ -10,6 +10,6 @@ The Bill of Materials (BOM) pictured below provides a list of items needed for t
 
 ## Bill of Materials 
 
-<img src="/docs/03-BOM/BOMScreenshot.png"></img>
+<img src="/docs/03-BOM/BOM-Screenshot.png"></img>
 
-The BOM as a PNG image is available [*here*](/docs/03-BOM/BOMScreenshot.png), and a Microsoft Excel Sheet [*here*](/docs/03-BOM/HS-BOM-MJ.xml).
+The BOM as a PNG image is available [*here*](/docs/03-BOM/BOM-Screenshot.png), and a Microsoft Excel Sheet [*here*](/docs/03-BOM/HS-BOM-MJ.xml).
