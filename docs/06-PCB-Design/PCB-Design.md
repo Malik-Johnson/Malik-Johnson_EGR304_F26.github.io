@@ -6,6 +6,7 @@ title: Printed Circuit Board Design
 The PCB design depicted below connects the components of the design correctly with regard to the schematic.
 
 <img src="/docs/06-PCB-Design/HS-Subsystem-MJ-PCB.svg"></img>
+<img src="https://raw.githubusercontent.com/Malik-Johnson/Malik-Johnson_EGR304_F26.github.io/fcc24abc56e425a136cd222b8fc3e9fa3bfc9fce/docs/06-PCB-Design/HS-Subsystem-MJ-PCB.svg"></img>
 
 ## Conclusions
 The design is very simple, featuring only connectors for the buttons, LCD screen, and to other portion(s) of the HeatSmith device, as well as a power supply.
